@@ -1,0 +1,36 @@
+{
+  "user": [
+    "user_count",
+    "user_mean",
+    "user_positive_share"
+  ],
+  "item": [
+    "item_count",
+    "item_positive_count",
+    "item_smoothed_mean",
+    "genre_unknown",
+    "genre_Action",
+    "genre_Adventure",
+    "genre_Animation",
+    "genre_Children's",
+    "genre_Comedy",
+    "genre_Crime",
+    "genre_Documentary",
+    "genre_Drama",
+    "genre_Fantasy",
+    "genre_Film-Noir",
+    "genre_Horror",
+    "genre_Musical",
+    "genre_Mystery",
+    "genre_Romance",
+    "genre_Sci-Fi",
+    "genre_Thriller",
+    "genre_War",
+    "genre_Western"
+  ],
+  "pair": [
+    "genre_cosine",
+    "positive_overlap_share",
+    "history_overlap_count"
+  ]
+}

@@ -1,0 +1,34 @@
+# Local environments and editor files
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.env.*
+.idea/
+.vscode/
+
+# Data and generated candidate-level outputs
+/data/
+/results_stage3/*
+!/results_stage3/fig_2_1.png
+!/results_stage3/fig_2_2.png
+!/results_stage3/periods.csv
+!/results_stage3/eligibility.csv
+/results_stage4/*
+!/results_stage4/feature_groups.json
+!/results_stage4/feature_summary.csv
+/results_stage5/*
+!/results_stage5/test_metrics.csv
+!/results_stage5/validation_grid.csv
+/results_stage6/*
+!/results_stage6/ablation.csv
+!/results_stage6/fig_2_3.png
+
+# Local documents and temporary files
+*.docx
+*.pdf
+~$*
+*.log
+Thumbs.db
+.DS_Store
